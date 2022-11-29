@@ -3,8 +3,8 @@
 
 source /opt/restic-scripts/.env
 
-SUBJECT="Restic: Backup"
-OUTPUT=$( restic backup /home /opt 2>&1 )
+SUBJECT="Restic: $( hostname ) Backup"
+OUTPUT=$( restic backup /home /opt --exclude-file=excludes.txt 2>&1 )
 OUTPUT=${OUTPUT//$'\n'/\\n}
 
 curl --request POST \
