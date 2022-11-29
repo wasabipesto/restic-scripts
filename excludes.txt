@@ -1,0 +1,2 @@
+# exclude steam game files
+.steam/debian-installation/steamapps/common
