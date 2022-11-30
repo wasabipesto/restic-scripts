@@ -1,2 +1,3 @@
 # exclude steam game files
-.steam/*/steamapps/common
+/home/*/.steam/*/steamapps/common
+/home/*/Games
