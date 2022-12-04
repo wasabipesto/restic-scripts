@@ -1,3 +1,6 @@
-# exclude steam game files
+# exclude game data files
 /home/*/.steam/*/steamapps/common
 /home/*/Games
+
+# .nobackup folder
+/home/*/.nobackup
