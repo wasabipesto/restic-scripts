@@ -4,7 +4,7 @@
 source /opt/restic-scripts/.env
 
 SUBJECT="Restic: Checkup"
-OUTPUT=$( restic check --read-data-subset=10% 2>&1 )
+OUTPUT=$( restic check --read-data-subset=10G 2>&1 )
 OUTPUT=${OUTPUT//$'\n'/\\n}
 
 curl --request POST \
