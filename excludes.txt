@@ -4,3 +4,6 @@
 
 # .nobackup folder
 /home/*/.nobackup
+
+# readarr cache
+/opt/readarr/cache.db
