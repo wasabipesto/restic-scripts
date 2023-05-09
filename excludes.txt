@@ -7,3 +7,9 @@
 
 # readarr cache
 /opt/readarr/cache.db
+
+# models
+/opt/stable-diffusion-webui/models
+/opt/stable-diffusion-webui/embeddings
+/opt/stable-diffusion-webui/aesthetic_embeddings
+
