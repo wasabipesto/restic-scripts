@@ -1,15 +1,19 @@
-# exclude game data files
+# game data files
 /home/*/.steam/*/steamapps/common
-/home/*/Games
 
 # .nobackup folder
 /home/*/.nobackup
 
+# cache files
+/home/.cache
+
 # readarr cache
 /opt/readarr/cache.db
+
+# containerd read-only
+/opt/containerd
 
 # models
 /opt/stable-diffusion-webui/models
 /opt/stable-diffusion-webui/embeddings
 /opt/stable-diffusion-webui/aesthetic_embeddings
-
