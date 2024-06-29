@@ -1,14 +1,21 @@
-# general nobackup and cache files
-/home/*/.nobackup
+# general cache files
 /home/*/.cache
+/home/*/.debug
 /home/*/.local/share/Trash
+/home/*/.nobackup
+/opt/*/target
+/opt/*/venv
 
 # read-only directories
 /opt/containerd
 
 # app-specific caches
+/home/*/.cargo
 /home/*/.config/Beeper
+/home/*/.local/share/protonmail
+/home/*/.rustup
 /home/*/.steam
+/home/*/.thunderbird
 /opt/readarr/cache.db
 
 # large models
