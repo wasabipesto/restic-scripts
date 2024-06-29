@@ -1,19 +1,17 @@
-# game data files
-/home/*/.steam/*/steamapps/common
-
-# .nobackup folder
+# general nobackup and cache files
 /home/*/.nobackup
-
-# cache files
 /home/*/.cache
+/home/*/.local/share/Trash
 
-# readarr cache
-/opt/readarr/cache.db
-
-# containerd read-only
+# read-only directories
 /opt/containerd
 
-# models
+# app-specific caches
+/home/*/.config/Beeper
+/home/*/.steam
+/opt/readarr/cache.db
+
+# large models
 /opt/stable-diffusion-webui/models
 /opt/stable-diffusion-webui/embeddings
 /opt/stable-diffusion-webui/aesthetic_embeddings
