@@ -5,7 +5,7 @@
 /home/*/.nobackup
 
 # cache files
-/home/.cache
+/home/*/.cache
 
 # readarr cache
 /opt/readarr/cache.db

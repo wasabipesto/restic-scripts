@@ -5,7 +5,6 @@
 Install restic:
 
     sudo apt install restic
-    sudo restic self-update
 
 Clone this:
 
