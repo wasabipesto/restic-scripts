@@ -16,6 +16,7 @@
 /home/*/.rustup
 /home/*/.steam
 /home/*/.thunderbird
+/opt/code/.launchpadlib/api.launchpad.net/cache
 /opt/readarr/cache.db
 
 # large models
