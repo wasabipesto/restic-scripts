@@ -3,6 +3,7 @@
 # Cronic v3 - cron job report wrapper
 # Copyright 2007-2016 Chuck Houpt. No rights reserved, whatsoever.
 # Public Domain CC0: http://creativecommons.org/publicdomain/zero/1.0/
+# Modified to only report on non-zero exit codes, ignoring stderr output
 
 set -eu
 
@@ -24,7 +25,7 @@ else
     ERR=$TRACE
 fi
 
-if [ $RESULT -ne 0 -o -s "$ERR" ]
+if [ $RESULT -ne 0 ]
     then
     echo "Cronic detected failure or error output for the command:"
     echo "$@"
