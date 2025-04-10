@@ -16,8 +16,10 @@
 /home/*/.rustup
 /home/*/.steam
 /home/*/.thunderbird
-/opt/code/.launchpadlib/api.launchpad.net/cache
-/opt/readarr/cache.db
+*/api.launchpad.net/cache
+*/readarr/cache.db
+*/PubSubHubbub
+*/postgres_data
 
 # large models
 /opt/stable-diffusion-webui/models
